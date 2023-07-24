@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #0c0202;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #a50b0b;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Marvel Studios</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">https://en.wikipedia.org/wiki/Marvel_Studios</a></li>
+      <li><a href="#">https://www.marvel.com/characters</a></li>
+      <li><a href="#">https://editorial.rottentomatoes.com/guide/all-marvel-cinematic-universe-movies-ranked/</a></li>
+      <img src="images.jpeg">
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Marvel History</h1>
+    <p>Marvel Films
+
+        The logo used under the Marvel Films branding
+        Following Marvel Entertainment Group's (MEG) ToyBiz deal in 1993, Avi Arad of ToyBiz was named president and CEO of Marvel Films division and of New World Family Filmworks, Inc., a New World Entertainment subsidiary. New World was MEG's former parent corporation and later a fellow subsidiary of the Andrews Group.[13][14] Marvel Productions became New World Animation by 1993 as Marvel would start up Marvel Films including Marvel Films Animation.[13][15][16] Marvel Films Animation shared Tom Tataranowicz with New World Animation as head of development and production.[17] New World Animation (The Incredible Hulk), Saban (X-Men) and Marvel Films Animation (Spider-Man) each produced a Marvel series for television for the 1996–1997 season.[18] It was Marvel Films Animation's only production.[16][19] By the end of 1993, Arad and 20th Century Fox struck a deal to make a film based on the X-Men.[20]
+        
+        New World Animation and Marvel Films Animation were sold along with the rest of New World by Andrews Group to News Corporation/Fox as announced in August 1996. As part of the deal, Marvel licensed the rights to Captain America, Daredevil and Silver Surfer to be on Fox Kids Network and produced by Saban. New World Animation continued producing a second season of The Incredible Hulk for UPN.[18][21]</p>
+  </article>
+</section>
+
+<footer>
+  <p>Copyright © Fandango. All rights reserved. V3</p>
+</footer>
+
+</body>
+</html>
+
